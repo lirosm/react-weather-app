@@ -31,8 +31,8 @@
     list-style: none;
 }
 
-.Weather .temp {
-    font-weight: thin;
+.Weather .temperature {
+    font-weight: bold;
     color: black;
     font-size: 64px;
     line-height: 64px;
@@ -40,8 +40,9 @@
 
 }
 
-.Weather img {
+.Weather canvas {
 height: 64px;
+margin-top: 5px;
 margin-right: 10px;
 width: 64px;
 }
