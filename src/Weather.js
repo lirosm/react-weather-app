@@ -1,4 +1,5 @@
 import React, { useState } from "react";
+import FormattedDate from "./FormattedDate";
 import axios from "axios";
 import "./Weather.css";
 
@@ -10,7 +11,7 @@ console.log(response.data);
         ready:true,
         temperature: response.data.main.temp, 
         description: response.data.weather[0].description,
-        date: "Saturday 17:09",
+        date: new Date(response.data.dt*1000),
         iconUrl: "https://ssl.gstatic.com/onebox/weather/64/partly_cloudy.png",
         humidity: response.data.main.humidity, 
         wind: response.data.wind.speed,
@@ -43,7 +44,9 @@ if (weatherData.ready){
         </form>
         <h1>{weatherData.city}</h1>
         <ul>
-            <li>Saturday 14:13</li>
+            <li>
+                <formattedDate date={weatherData.date} />
+            </li>
             <li className ="text-capitalize">
                 {weatherData.description}</li>
         </ul>

@@ -11,7 +11,7 @@ export default function App() {
     This project was coded by Liridona Osmani and is open-sourced on {""}
   <a 
   href="https://github.com/lirosm/react.app.weather"
-  target="_blank"
+  target="_blank" rel="noopener noreferrer"
   > GitHub
 
   </a>
