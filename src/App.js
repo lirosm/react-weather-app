@@ -13,7 +13,9 @@ export default function App() {
   href="https://github.com/lirosm/react.app.weather"
   target="_blank" rel="noopener noreferrer"
   > GitHub
-
+  </a>
+  {""} and hosted on <a href="https://dazzling-lamport-4cb53f.netlify.app/" target="_blank" rel="noopener noreferrer">
+    Netlify
   </a>
   </footer>
   </div>
