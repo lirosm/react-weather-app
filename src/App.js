@@ -14,7 +14,7 @@ export default function App() {
   target="_blank" rel="noopener noreferrer"
   > GitHub
   </a>
-  {""} and hosted on <a href="https://dazzling-lamport-4cb53f.netlify.app/" target="_blank" rel="noopener noreferrer">
+  {""} and hosted on <a href="https://competent-chandrasekhar-4f3510.netlify.app/" target="_blank" rel="noopener noreferrer">
     Netlify
   </a>
   </footer>
